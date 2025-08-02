@@ -1,0 +1,22 @@
+// Set current year
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// Set greeting based on time
+const hour = new Date().getHours();
+let message = "Welcome!";
+if (hour < 12) message = "Good morning!";
+else if (hour < 18) message = "Good afternoon!";
+else message = "Good evening!";
+document.getElementById("greeting").textContent = message;
+
+// Toggle contact info
+document.getElementById("toggle-contact").addEventListener("click", function () {
+  const info = document.getElementById("contact-info");
+  if (info.style.display === "none" || info.style.display === "") {
+    info.style.display = "block";
+    this.textContent = "Hide Contact Info";
+  } else {
+    info.style.display = "none";
+    this.textContent = "Show Contact Info";
+  }
+});
