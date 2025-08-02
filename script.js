@@ -4,10 +4,10 @@ document.getElementById("year").textContent = new Date().getFullYear();
 // Set greeting based on time
 const hour = new Date().getHours();
 let message = "Welcome!";
-if (hour < 12) message = "Good morning!";
-else if (hour < 18) message = "Good afternoon!";
-else message = "Good evening!";
-document.getElementById("greeting").textContent = message;
+if (hour < 12) message = "Good Morning!";
+else if (hour < 18) message = "Good Afternoon!";
+else message = "Good Evening!";
+document.getElementById("Greeting").textContent = message;
 
 // Toggle contact info
 document.getElementById("toggle-contact").addEventListener("click", function () {
