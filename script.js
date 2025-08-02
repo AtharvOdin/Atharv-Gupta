@@ -7,7 +7,7 @@ let message = "Welcome!";
 if (hour < 12) message = "Good Morning!";
 else if (hour < 18) message = "Good Afternoon!";
 else message = "Good Evening!";
-document.getElementById("Greeting").textContent = message;
+document.getElementById("greeting").textContent = message;
 
 // Toggle contact info
 document.getElementById("toggle-contact").addEventListener("click", function () {
