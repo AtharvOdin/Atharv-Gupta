@@ -380,17 +380,17 @@ body::after{
   display: none;
   margin-top: 10px;
   font-size: 20px;
-  color: var(--accent3);
+  color: #00ddff;
 }
 
 #contact-info a {
-  color: var(--accent2);
+  color: #07023e;
   text-decoration: none;
   transition: 0.3s;
 }
 
 #contact-info a:hover {
-  color: var(--accent);
+  color: #0008ff;
   text-decoration: underline;
 }
 
